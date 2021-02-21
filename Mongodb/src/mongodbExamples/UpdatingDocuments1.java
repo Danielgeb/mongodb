@@ -12,7 +12,7 @@ import org.bson.Document;
 import com.mongodb.MongoClient;
 public class UpdatingDocuments1 {
    public static void main( String args[] ) {
-      // Creating a Mongo client
+      // Creating a Mongo client with its port #
       MongoClient mongo = new MongoClient( "localhost" , 27017 );
       //Connecting to the database
       MongoDatabase database = mongo.getDatabase("myDatabase");
